@@ -1,0 +1,128 @@
+@import '../var.scss';
+
+.hfn {
+  .d-layout {
+    height: 100vh;
+    width: 100%;
+
+    .ant-layout {
+      height: 100%;
+      background: $bodyColor;
+
+      aside {
+        background: #fff;
+        border-right: 1px solid $borderColor;
+        user-select: none;
+        height: 100vh;
+        overflow: hidden;
+        overflow-y: auto;
+
+        .logo {
+          height: $headerHeight;
+          border-bottom: 1px solid $borderColor;
+        }
+
+        .ant-menu {
+          border: 0;
+
+          .ant-menu-item-icon {
+            font-size: 16.5px;
+          }
+
+          .ant-menu-submenu-arrow {
+            &::after,
+            &::before {
+              height: 0.5px;
+            }
+          }
+        }
+
+        .ant-menu-sub.ant-menu-inline {
+          background: #fff !important;
+        }
+      }
+
+      .ant-layout-header {
+        background: #fff;
+        height: $headerHeight;
+        background: #fff;
+        padding: 10px;
+        line-height: 0;
+        border-bottom: 1px solid $borderColor;
+
+        .topbar {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          height: 100%;
+
+          .sidebar-toggler {
+            font-size: 22px;
+            color: pointer;
+          }
+
+          .action-bar-section {
+            display: flex;
+            flex-grow: 2;
+            max-width: 92%;
+            justify-content: center;
+
+            .project-name-wrapper {
+              display: flex;
+              align-items: center;
+              label {
+                margin-right: 10px;
+                display: block;
+              }
+            }
+          }
+
+          .user-info {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+
+            .img-wrapper {
+              img {
+                height: 30px;
+                width: 30px;
+                border-radius: 100%;
+                margin-right: 10px;
+              }
+            }
+
+            .info {
+              p {
+                margin: 0;
+                line-height: 20px;
+
+                &.name {
+                  font-size: 14px;
+                }
+
+                &.role {
+                  font-size: 12px;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .ant-layout-content {
+        padding: 20px;
+        overflow: hidden;
+        overflow-y: auto;
+      }
+    }
+  }
+}
+
+.ant-menu-inline-collapsed-tooltip {
+  .ant-tooltip-inner {
+    i {
+      margin-right: 5px;
+    }
+  }
+}

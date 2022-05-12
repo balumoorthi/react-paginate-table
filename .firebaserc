@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "unifiedplatform-qa": {
+      "hosting": {
+        "admincms-hfn-qa": [
+          "admincms-hfn-qa"
+        ]
+      }
+    }
+  }
+}

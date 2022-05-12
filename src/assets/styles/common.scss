@@ -1,0 +1,47 @@
+// @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+@import './var.scss';
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.invalid-feedback {
+  display: block;
+}
+
+body {
+  // font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Inter', sans-serif;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+// antd override styles
+
+.ant-btn {
+  padding: 7px 20px;
+  height: auto;
+}
+
+.ant-input {
+  padding: 7px 11px;
+}
+
+.invalid-feedback {
+  color: $danger;
+}
+
+.ant-input-number {
+  width: 100%;
+}
+
+// antd override styles

@@ -1,0 +1,12 @@
+.project-select-wrapper {
+  display: flex;
+  align-items: center;
+  span {
+    display: inline-block;
+    margin-right: 11px;
+  }
+
+  .project-select {
+    width: 200px;
+  }
+}

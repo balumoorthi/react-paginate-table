@@ -1,0 +1,16 @@
+module.exports = {
+  '@primary-color': '#6c5ffc',
+  '@success-color': '#13bfa6',
+  '@info-color': '#1170e4',
+  '@error-color': '#e62a45',
+  '@font-family': "'Inter', sans-serif",
+  '@border-radius-base': '4px',
+  '@border-radius-sm': '4px',
+  '@shadow-color': '#eeeeee',
+  '@shadow-1-up': '0 1px 10px 0 rgb(233 233 233 / 8%)',
+  '@shadow-1-down': '0 1px 10px 0 rgb(233 233 233 / 8%)',
+  '@shadow-1-left': '0 1px 10px 0 rgb(233 233 233 / 8%)',
+  '@shadow-1-right': '0 1px 10px 0 rgb(233 233 233 / 8%)',
+  '@shadow-2': '0 1px 10px 0 rgb(233 233 233 / 8%)',
+  '@menu-collapsed-width': '60px',
+};
